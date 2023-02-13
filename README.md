@@ -1,2 +1,2 @@
 # CS-454
-Exercises for CS454 Homework
+Exercises for Concurrent Programming Homework
