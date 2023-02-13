@@ -50,7 +50,6 @@ public class Exercise {
         for(int i=0;i<philosopher.length;i++){
             Object leftChopStick = chopsticks[i];
             Object rightChopStick = chopsticks[(i+1)%n];
-            //use this if condition to avoid dead lock
             if(i == philosopher.length-1){
                 philosopher[i] = new Philosopher(leftChopStick,rightChopStick);
             }else{
