@@ -1,3 +1,4 @@
+//EXERCISE 1.1
 import java.util.Random;
 public class Exercise {
     public static class Philosopher implements Runnable{
